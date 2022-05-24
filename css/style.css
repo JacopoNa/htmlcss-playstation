@@ -1,19 +1,41 @@
+/* COMMON */
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ms-button {
+    padding: 12px;
+    border-radius: 25px;
+}
 
 /* HEADER */
 header {
-    height: 100px;
+    height: 110px;
     border: 1px solid black;
+    display: fixed;
+    font-family: Helvetica, arial, sans-serif;
 }
 
 /* header top */
 .header-top {
-    height: 40px;
+    height: 45px;
     background-color: black;
 }
 
 .sony-logo {
     text-align: right;
-    line-height: 40px;
+    line-height: 45px;
     margin-right: 10px;
 }
 
@@ -23,5 +45,59 @@ header {
 
 /* header bottom */
 .header-bottom {
-    height: 60px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom ul {
+    display: none;
+}
+
+.header-bottom ul li {
+    margin: 0 10px;
+}
+
+.header-bottom ul li img {
+    width: 10px;
+    margin-left: 5px;
+}
+
+.list-items {
+    display: flex;
+    line-height: 65px;
+}
+
+.login {
+    line-height: 65px;
+    margin-right: 1rem;
+}
+
+.burger i {
+    font-size: 30px;
+}
+
+.btn-header {
+    background-color: #363636;
+    color: white;
+    display: inline;
+}
+
+.header-bottom ul li .lens {
+    width: 25px;
+}
+
+
+/* LG SCREEN */
+@media screen and (min-width: 992px) {
+
+    /* header bottom*/
+    .header-bottom ul {
+        display: block;
+        display: flex;
+    }
+
+    .burger {
+        display: none;
+    }
 }

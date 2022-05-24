@@ -17,12 +17,26 @@ a {
 .ms-button {
     padding: 12px;
     border-radius: 25px;
+    display: inline;
+}
+
+.ms-t-white {
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: 40px;
 }
 
 /* HEADER */
 header {
     height: 110px;
-    border: 1px solid black;
     display: fixed;
     font-family: Helvetica, arial, sans-serif;
 }
@@ -80,12 +94,29 @@ header {
 .btn-header {
     background-color: #363636;
     color: white;
-    display: inline;
 }
 
 .header-bottom ul li .lens {
     width: 25px;
 }
+
+/* MAIN */
+/* jumbo */
+.jumbo {
+    background-image: url('../img/jumbo-bg.png');
+    background-position: top;
+    height: 600px;
+}
+
+.buy-jumbo img {
+    margin-top: 250px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.btn-red {
+    background-color: #cd3d0f;
+} 
 
 
 /* LG SCREEN */
@@ -99,5 +130,10 @@ header {
 
     .burger {
         display: none;
+    }
+
+    /* jumbo */
+    .buy-jumbo {
+        max-width: 30%;
     }
 }

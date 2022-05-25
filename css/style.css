@@ -14,6 +14,10 @@ a {
     color: inherit;
 }
 
+img {
+    max-width: 100%;
+}
+
 .ms-button {
     padding: 12px;
     border-radius: 25px;
@@ -135,10 +139,17 @@ header {
 
 .ms-card {
     margin: 15px;
+    border-radius: 15px;
+}
+
+.ms-padd-border {
+    border: 2px solid #127cd2;
+    padding: 2px;
 }
 
 .game img {
     width: 100%;
+    border-radius: 15px;
 }
 
 /* intro ps5 */
@@ -146,6 +157,72 @@ header {
 .intro-ps5 span {
     color: #127cd2;
     font-size: 15px;
+}
+
+/* console */
+.console {
+    padding-bottom: 40px;
+}
+
+.btn-lightblue {
+    background-color: #2d64e6;
+    color: white;
+}
+
+.console-text {
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ps5-image {
+    margin-bottom: 20px;
+}
+
+.ms-border {
+    border-bottom: 2px solid #2d64e6;
+}
+
+.ps5-items {
+    height: 100%;
+}
+
+.ps5-items img {
+    opacity: 0.6;
+}
+
+.ps5-items img.ms-opacity{
+    opacity: 1;
+}
+
+.ps5-items span {
+    display: none;
+}
+
+.ps5-items span i {
+    position: absolute;
+    font-size: 9px;
+}
+
+/* MD SCREEN */
+@media screen and (min-width: 768px) {
+    /* console */
+    .ps5-items span {
+        display: block;
+    }
+
+    .ps5-items img{
+        width: 50%;
+    }
+
+    .ps5-items {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* LG SCREEN */

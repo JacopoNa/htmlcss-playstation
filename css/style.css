@@ -281,6 +281,15 @@ header {
     display: none;
 }
 
+/* discount */ 
+.discount {
+    padding: 50px 0;
+}
+
+.discount img {
+    margin-bottom: 50px;
+}
+
 
 /* MD SCREEN */
 @media screen and (min-width: 768px) {

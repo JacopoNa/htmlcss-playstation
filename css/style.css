@@ -32,6 +32,11 @@ h2 {
 p {
     line-height: 1.5rem;
     margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.ms-p-grey {
+    color: #727272;
 }
 
 /* HEADER */
@@ -118,9 +123,14 @@ header {
     background-color: #cd3d0f;
 } 
 
+.jumbo p {
+    font-size: 16px;
+}
+
 /* game */
 .game {
     padding-top: 20px;
+    padding-bottom: 80px;
 }
 
 .ms-card {
@@ -129,6 +139,13 @@ header {
 
 .game img {
     width: 100%;
+}
+
+/* intro ps5 */
+
+.intro-ps5 span {
+    color: #127cd2;
+    font-size: 15px;
 }
 
 /* LG SCREEN */

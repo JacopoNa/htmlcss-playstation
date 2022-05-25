@@ -240,6 +240,20 @@ header {
     margin-bottom: 10px;
 }
 
+/* ps4 section */
+.ps4 {
+    padding: 50px 0;
+}
+
+.ps4-text {
+    margin-bottom: 30px;
+}
+
+.ps4-text p {
+    margin-bottom: 0;
+}
+
+
 /* MD SCREEN */
 @media screen and (min-width: 768px) {
     /* console */

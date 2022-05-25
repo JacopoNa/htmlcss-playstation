@@ -206,6 +206,16 @@ header {
     font-size: 9px;
 }
 
+/* jumbo-bottom */
+.jumbo.jumbo-bottom {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+}
+
+.buy-jumbo img.img-jumbo-bottom {
+    margin-top: 70px;
+}
+
 /* MD SCREEN */
 @media screen and (min-width: 768px) {
     /* console */

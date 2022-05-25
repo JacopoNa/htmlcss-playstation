@@ -236,13 +236,14 @@ header {
     margin-right: 14px;
 }
 
-.game img {
+.game.releases img {
     margin-bottom: 10px;
 }
 
 /* ps4 section */
 .ps4 {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .ps4-text {
@@ -251,6 +252,33 @@ header {
 
 .ps4-text p {
     margin-bottom: 0;
+}
+
+/* explore Playstation Plus */
+.explore {
+    padding: 50px 0;
+}
+
+.ps-plus {
+    background-color: #bebcbb;
+}
+
+.explore p {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.explore-logo {
+    width: 60%;
+}
+
+.btn-ps-plus {
+    background-color: #d9dadc;
+    color: #3569e6;
+}
+
+.explore-img {
+    display: none;
 }
 
 
@@ -271,6 +299,23 @@ header {
         flex-direction: column;
         align-items: center;
     }
+
+    /* explore Playstation Plus */
+    .explore-img {
+        display: block;
+    }
+
+    .explore {
+        padding: 0;
+    }
+
+    .explore-logo {
+        margin-top: 15px;
+    }
+
+    .explore p {
+        margin-bottom: 27px;
+    }
 }
 
 /* LG SCREEN */
@@ -289,5 +334,14 @@ header {
     /* jumbo */
     .buy-jumbo {
         max-width: 30%;
+    }
+
+    /* explore Playstation plus */
+    .explore-logo {
+        margin-top: 90px;
+    }
+
+    .explore p {
+        margin-bottom: 40px;
     }
 }

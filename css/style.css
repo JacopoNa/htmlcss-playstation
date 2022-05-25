@@ -216,6 +216,30 @@ header {
     margin-top: 70px;
 }
 
+/* game releases */
+.releases {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.game.releases p {
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+.game span i {
+    position: absolute;
+    font-size: 9px;
+}
+
+.game span {
+    margin-right: 14px;
+}
+
+.game img {
+    margin-bottom: 10px;
+}
+
 /* MD SCREEN */
 @media screen and (min-width: 768px) {
     /* console */

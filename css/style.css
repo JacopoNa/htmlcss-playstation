@@ -302,6 +302,15 @@ header {
     background-color: white;
 }
 
+/* socials */
+.socials {
+    padding: 60px 0;
+}
+
+.socials h2 {
+    margin-bottom: 60px;
+}
+
 /* MD SCREEN */
 @media screen and (min-width: 768px) {
     /* console */

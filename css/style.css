@@ -1,4 +1,4 @@
-/* COMMON */
+/* RESET */
 
 body {
     font-family: Arial, sans-serif;
@@ -18,6 +18,7 @@ img {
     max-width: 100%;
 }
 
+/* COMMON */
 .ms-button {
     padding: 12px;
     border-radius: 25px;
@@ -41,6 +42,15 @@ p {
 
 .ms-p-grey {
     color: #727272;
+}
+
+.btn-red {
+    background-color: #cd3d0f;
+}
+
+.btn-lightblue {
+    background-color: #2d64e6;
+    color: white;
 }
 
 /* HEADER */
@@ -121,10 +131,6 @@ header {
     margin-top: 250px;
     margin-bottom: 20px;
     width: 50%;
-}
-
-.btn-red {
-    background-color: #cd3d0f;
 } 
 
 .jumbo p {
@@ -162,11 +168,6 @@ header {
 /* console */
 .console {
     padding-bottom: 40px;
-}
-
-.btn-lightblue {
-    background-color: #2d64e6;
-    color: white;
 }
 
 .console-text {
@@ -290,6 +291,16 @@ header {
     margin-bottom: 50px;
 }
 
+/* explore Playstation Now */
+.ps-now {
+    background-color: #161c3b;
+    color: white;
+}
+
+.btn-ps-now {
+    color: black;
+    background-color: white;
+}
 
 /* MD SCREEN */
 @media screen and (min-width: 768px) {
